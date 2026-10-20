@@ -6,11 +6,6 @@ An end-to-end analytics project: raw order and inventory files cleaned with Pyth
 **Headline finding:** 54.8% of order lines ship later than promised, and the cause is the delivery promise, not the region. First Class promises 1 day but always takes 2, so about 95% of its orders are late. Resetting that one promise to 2 days would cut overall late delivery from **54.8% to 40.1%**.
 
 ## Dashboard preview
-
-| Business review | Delivery performance | Inventory health |
-|---|---|---|
-| ![Business review](dashboard/01_business_review.png) | ![Delivery performance](dashboard/02_delivery_performance.png) | ![Inventory health](dashboard/03_inventory_health.png) |
-
 Full export: [`dashboard/supplychain_analysis_dashboard.pdf`](dashboard/supplychain_analysis_dashboard.pdf)
 
 ## Business questions
